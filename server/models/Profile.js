@@ -6,7 +6,7 @@ const profileSchema = new mongoose.Schema({
         required:true,
         maxlength:32,
         trim:true,   
-    }, 
+    },
     lastName: {
         type:String,
         required:true,
@@ -23,7 +23,7 @@ const profileSchema = new mongoose.Schema({
         type:String,
     }
 
-})
+});
 
 
 module.exports = Profile = mongoose.model("profile", profileSchema);
