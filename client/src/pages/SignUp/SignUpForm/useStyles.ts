@@ -7,14 +7,15 @@ const useStyles = makeStyles((theme: Theme) => ({
     marginTop: theme.spacing(1),
   },
   label: {
-    fontSize: 19,
-    color: 'rgb(0,0,0,0.4)',
+    fontSize: '14px !important',
     paddingLeft: '5px',
+    marginTop: '1rem',
+    fontWeight: 'bold !important',
+    textTransform: 'uppercase',
   },
   inputs: {
-    marginTop: '1rem',
     height: '2rem',
-    padding: '5px',
+    padding: '0.5rem 1rem',
   },
   forgot: {
     paddingRight: 10,
@@ -24,11 +25,11 @@ const useStyles = makeStyles((theme: Theme) => ({
     margin: theme.spacing(3, 2, 2),
     padding: 10,
     width: 160,
-    height: 56,
+    height: 55,
     borderRadius: theme.shape.borderRadius,
-    fontSize: 16,
-    backgroundColor: '#3a8dff',
-    fontWeight: 'bold',
+    fontSize: '18px !important',
+    backgroundColor: '#D82E2F !important',
+    fontWeight: 'bolder',
   },
 }));
 
